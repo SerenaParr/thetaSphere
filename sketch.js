@@ -3,7 +3,7 @@ var vid;
 var theta = 0;
 
 function setup(){
-  createCanvas(500, 500, WEBGL);
+  createCanvas(400, 400, WEBGL);
   vid = createVideo(['assets/thetaSphere2.mp4']);
   vid.loop();
   vid.hide();
@@ -16,6 +16,6 @@ function draw(){
     rotateY(theta);
     //pass image as texture
     texture(vid);
-    sphere(150);
+    sphere(175);
   theta += 0.00097;
 }
