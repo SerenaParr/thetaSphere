@@ -10,7 +10,7 @@ function setup(){
 }
 
 function draw(){
-  background(10);
+  background(255);
   orbitControl();  
     rotateY(theta);
     //pass image as texture
