@@ -15,6 +15,6 @@ function draw(){
     rotateY(theta);
     //pass image as texture
     texture(vid);
-    sphere(175);
+    sphere(160);
   theta += 0.00097;
 }
