@@ -3,7 +3,7 @@ var vid;
 var theta = 0;
 
 function setup(){
-  createCanvas(400, 400, WEBGL);
+  createCanvas(375, 375, WEBGL);
   vid = createVideo(['assets/thetaSphere2.mp4']);
   vid.loop();
   vid.hide();
